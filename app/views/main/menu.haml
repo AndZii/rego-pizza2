@@ -2,7 +2,7 @@
   .container-fluid
     .row
       .col-xs-12.col-md-4
-        = render :partial => '/layouts/menu_column', :locals => {:menu_item => @res["BREAKFAST"] , :anchor_link => "breakfast-menu" , :no_first_lavel_title => false}
+        = render :partial => '/layouts/menu_column', :locals => {:menu_item => @res["BREAKFAST (COMING SOON)"] , :anchor_link => "breakfast-menu" , :no_first_lavel_title => false}
         = render :partial => '/layouts/menu_column', :locals => {:menu_item => @res["HOT BEVARAGES"] ,:anchor_link => "hot-bavarages-menu" , :no_first_lavel_title => false}
       .col-xs-12.col-md-4
         = render :partial => '/layouts/menu_column', :locals => {:menu_item => @res["LUNCH/DINNER"], :anchor_link => "lunch-dinner-menu", :no_first_lavel_title => true }

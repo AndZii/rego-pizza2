@@ -15,7 +15,7 @@ end
 puts ' -//- cleaning;'
 
 # "BREAKFAST MENU"
-section = 'BREAKFAST'
+section = 'BREAKFAST (COMING SOON)'
 second_section = 'Bagels with Spreads'
 
 MenuItem.create(
