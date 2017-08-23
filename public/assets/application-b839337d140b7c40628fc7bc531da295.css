@@ -1,3 +1,93 @@
+/* line 5, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.menu-body {
+  margin-top: 20px !important;
+}
+
+/* line 9, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.menu-wrapper {
+  padding: 10px 10px;
+}
+
+/* line 13, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.second-title {
+  padding-left: 20px;
+  font-size: 17px !important;
+}
+
+/* line 18, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.menu-extra {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  line-height: 12px;
+}
+
+/* line 25, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.menu-body {
+  padding: 20px;
+  background: white;
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: #5c5c5c;
+}
+
+/* line 34, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.menu-section-title {
+  font-family: georgia;
+  font-size: 23px;
+  display: block;
+  font-weight: bold;
+  margin: 4px 0;
+  text-align: left;
+  color: black;
+  padding: 2pxpx;
+}
+
+/* line 46, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.menu-section {
+  margin-bottom: 80px;
+}
+
+/* line 50, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.menu-section-second-title {
+  padding-left: 5px;
+  color: #912a2d;
+  margin-left: 5px;
+  font: normal 26px 'Cookie', cursive;
+}
+
+/* line 57, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.menu-item {
+  margin: 35px 0;
+  font-size: 14px;
+}
+
+/* line 62, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.menu-item-name {
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted #d5d5d5;
+  margin-left: 15px;
+}
+
+/* line 69, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.menu-item-description {
+  margin-left: 10px;
+  font-style: italic;
+  font-size: .9em;
+  line-height: 16px;
+  padding-left: 4px;
+}
+
+/* line 77, /Users/andrey/rails_projects/rego-pizza-2/app/assets/stylesheets/main.scss */
+.menu-item-price {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -10,8 +100,8 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
 
 
@@ -21,21 +111,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
 
-
-@media (min-width: 576px) {
-  .hidden-sm-up {
-    display: none !important;
-  }
-}
-
 #phone-button-wrapper {
-    display: none;
     width: 60px;
     height: 60px;
     position: fixed;
-    bottom: 5px;
-    right: 5px;
-    background: #00E676;
+    bottom: -5px;
+    right: -5px;
+    background: #00d932;
     border-radius: 100px;
     z-index: 100;
     line-height: 70px;
@@ -50,7 +132,7 @@
     height: 47px;
     position: fixed;
     bottom: 0;
-    background: #B9F6CA;
+    background: #607D8B;
     z-index: 99;
     border-radius: 30px 0 0 0;
     text-align: center;
