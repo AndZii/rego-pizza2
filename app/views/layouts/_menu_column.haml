@@ -1,0 +1,28 @@
+- unless menu_item.nil?
+  .menu-body{:id => "#{anchor_link}"}
+    .menu-section
+      .row.title-parent
+        .col-xs-10
+          %h2.menu-section-title= menu_item.section_name
+        .col-xs-2.menu-section-title.title-child
+      / Section second title
+      - menu_item.second_sections.each do |second_section|
+        .row.title-parent
+          .col-xs-10
+            %h2.menu-section-title.second-title= second_section.second_section_name.upcase
+          .col-xs-2.menu-section-title.title-child
+        - second_section.items.each do |item|
+          / Item starts
+          .menu-item
+            .menu-item-name
+              = item.name
+            .menu-item-price
+              = item.price
+            .menu-item-description
+              - unless item.description.nil? || item.description.empty?
+                %span
+                  = item.description
+              - unless item.extras.nil? || item.extras.empty?
+                %br/
+                %span.menu-extra
+
