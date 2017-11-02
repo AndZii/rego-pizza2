@@ -7,7 +7,9 @@
                 <%= simple_form_for(@menu_item,  html:
                       { style: "width: 80% !important; margin: auto;", class: 'form-horizontal' }, :url => create_menu_item_path(@menu_item)) do |f| %>
                       <%= f.input :section, as: :string, readonly: true %>
+                      <% if !@second_section_collection.nil? && !@second_section_collection.empty? %>
                       <%= f.input :second_section, :collection => @second_section_collection, :selected => @second_section_collection[0]  %>
+                      <% end %>
                       <%= f.input :name %>
                       <%= f.input :price %>
                       <%= f.input :description %>

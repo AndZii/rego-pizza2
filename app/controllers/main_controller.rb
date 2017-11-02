@@ -55,7 +55,7 @@ class MainController < ApplicationController
     
   def prepare_second_section(section)
       res = MenuItem.where(:section => section).uniq.pluck(:second_section)
-      if(res.nil?)
+      if(res.nil? || res.empty? || res[0] == "")
          res = [] 
       end      
       res
