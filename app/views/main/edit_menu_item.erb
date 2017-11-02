@@ -1,0 +1,20 @@
+    <div class="container">
+      <div class="bg-faded p-4 my-4">
+            <hr class="divider">
+            <h2 class="text-center text-lg text-uppercase"> Edit <strong>Menu Item</strong></h2>
+            <hr class="divider">
+            <div class="row">
+                <%= simple_form_for(@menu_item,  html:
+                      { style: "width: 80% !important; margin: auto;", class: 'form-horizontal' }, :url => update_menu_item_path(@menu_item)) do |f| %>
+                      <%= f.input :section, as: :string, readonly: true %>
+                      <%= f.input :second_section, :collection => @second_section_collection, :selected => @menu_item.second_section %>
+                      <%= f.input :name %>
+                      <%= f.input :price %>
+                      <%= f.input :description %>
+                      <%= link_to "< back", menu_edit_path, class: "btn btn-danger" %>
+                      <%= f.button :submit , style: "color: white !important;", class: "btn btn-success pull-right" %>
+                <% end %>
+            </div>
+        </div>
+    </div>    
+         

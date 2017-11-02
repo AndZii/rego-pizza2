@@ -7,6 +7,15 @@ Rails.application.routes.draw do
 
   get 'rego-pizza-new-york-menu' => 'main#menu'
 
+  get 'menu-edit' => 'main#menu_edit', as: :menu_edit
+    
+  get 'edit-menu-item' => 'main#edit_menu_item' , as: :edit_menu_item 
+    
+  patch 'update-menu-item/:id', to: 'main#update_menu_item', as: :update_menu_item 
+   
+  post 'create-menu-item' => 'main#create_menu_item', as: :create_menu_item
+    
+  get 'new-menu-item' => "main#new_menu_item", as: :new_menu_item
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

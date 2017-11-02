@@ -3,7 +3,13 @@
     .menu-section
       .row.title-parent
         .col-xs-10
-          %h2.menu-section-title= menu_item.section_name
+          %h2.menu-section-title
+            = menu_item.section_name
+            - if edit_menu
+              = link_to new_menu_item_path(:section_name => menu_item.section_name) do
+                %i.fa.fa-plus{ :style => "margin-left: 10px;" }
+                %span{ :style => "font-size: 75%;"}
+                  = "add item"
         .col-xs-2.menu-section-title.title-child
       / Section second title
       - menu_item.second_sections.each do |second_section|
@@ -15,6 +21,9 @@
           / Item starts
           .menu-item
             .menu-item-name
+              - if edit_menu
+                = link_to edit_menu_item_path(:id => item.id ) do
+                  %i.fa.fa-pencil{ :style => "margin-right: 10px;" }
               = item.name
             .menu-item-price
               = item.price

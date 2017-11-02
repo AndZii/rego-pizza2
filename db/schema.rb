@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20170723135753) do
 
-  create_table "menu_items", force: :cascade do |t|
+  create_table "menu_items", force: true do |t|
     t.string   "section"
     t.string   "second_section"
     t.string   "name"
