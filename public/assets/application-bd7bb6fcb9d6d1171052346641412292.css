@@ -1,0 +1,256 @@
+/* line 5, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.admin-btn {
+  text-align: center !important;
+  color: grey !important;
+  width: 51%;
+  height: 40px;
+  line-height: 40px;
+  margin: auto;
+  border-width: 0.2px 0 0.2px 0;
+  border-color: rgba(0, 0, 0, 0.52);
+  border-style: solid;
+  font-size: 130%;
+  margin-bottom: 20px;
+}
+
+/* line 19, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.admin-btn:hover {
+  text-decoration: none;
+}
+
+/* line 23, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.menu-body {
+  margin-top: 20px !important;
+}
+
+/* line 27, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.menu-wrapper {
+  padding: 10px 10px;
+}
+
+/* line 31, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.second-title {
+  padding-left: 20px;
+  font-size: 17px !important;
+}
+
+/* line 36, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.menu-extra {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  line-height: 12px;
+}
+
+/* line 43, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.menu-body {
+  padding: 20px;
+  background: white;
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: #5c5c5c;
+}
+
+/* line 52, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.menu-section-title {
+  font-family: georgia;
+  font-size: 23px;
+  display: block;
+  font-weight: bold;
+  margin: 4px 0;
+  text-align: left;
+  color: black;
+  padding: 2pxpx;
+}
+
+/* line 64, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.menu-section {
+  margin-bottom: 80px;
+}
+
+/* line 68, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.menu-section-second-title {
+  padding-left: 5px;
+  color: #912a2d;
+  margin-left: 5px;
+  font: normal 26px 'Cookie', cursive;
+}
+
+/* line 75, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.menu-item {
+  margin: 35px 0;
+  font-size: 14px;
+}
+
+/* line 80, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.menu-item-name {
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted #d5d5d5;
+  margin-left: 15px;
+}
+
+/* line 87, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.menu-item-description {
+  margin-left: 10px;
+  font-style: italic;
+  font-size: .9em;
+  line-height: 16px;
+  padding-left: 4px;
+}
+
+/* line 95, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/main.scss */
+.menu-item-price {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/template-overviews/business-casual)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+@media (min-width: 576px) {
+  /* line 29, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+  .hidden-sm-up {
+    display: none !important;
+  }
+}
+/* line 34, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+#phone-button-wrapper {
+  display: none;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background: #00E676;
+  border-radius: 100px;
+  z-index: 100;
+  line-height: 70px;
+  text-align: center;
+  font-size: 12px;
+  text-align: center;
+  color: white !important;
+}
+
+/* line 50, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+.call-right-now-description {
+  width: 50%;
+  right: 0;
+  height: 47px;
+  position: fixed;
+  bottom: 0;
+  background: #B9F6CA;
+  z-index: 99;
+  border-radius: 30px 0 0 0;
+  text-align: center;
+  color: white;
+  line-height: 45px;
+  font-size: 18px;
+}
+
+/* line 66, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+.socials-wrapper a {
+  color: #414141;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* line 72, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background: url("../img/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* line 87, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-heading {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 91, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+h1 {
+  font-size: 4rem;
+}
+
+/* line 95, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+.tagline-upper {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* line 101, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+.tagline-lower {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* line 106, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+.text-expanded {
+  letter-spacing: 2px;
+}
+
+/* line 110, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* line 114, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+.text-lg {
+  font-size: 1.25rem;
+}
+
+/* line 118, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 122, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 126, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+hr.divider {
+  border-color: #292b2c;
+  max-width: 250px;
+}
+
+/* line 131, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+.map-container iframe {
+  pointer-events: none;
+}
+
+/* line 135, /Users/andrey/rails_projects/rego-pizza2/app/assets/stylesheets/application.scss */
+.map-container iframe.clicked {
+  pointer-events: auto;
+}
