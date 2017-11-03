@@ -16,6 +16,9 @@ Rails.application.routes.draw do
   post 'create-menu-item' => 'main#create_menu_item', as: :create_menu_item
     
   get 'new-menu-item' => "main#new_menu_item", as: :new_menu_item
+    
+  get 'admin' => "main#admin" 
+        
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

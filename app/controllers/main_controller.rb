@@ -1,6 +1,10 @@
 class MainController < ApplicationController
  
+  http_basic_authenticate_with name: "login", password: "password", except: [:index, :about, :contacts, :menu]  
+    
   before_action :prepare_menu_items, only: [:menu_edit, :menu]
+    
+  # USER ACTION    
     
   def index
   end
@@ -10,13 +14,18 @@ class MainController < ApplicationController
 
   def contacts
   end
-
-  def menu_edit
-  end    
       
   def menu
   end
-  
+
+  # ADMIN ACTIONS    
+    
+  def admin
+  end            
+    
+  def menu_edit
+  end     
+    
   def new_menu_item
      @menu_item = MenuItem.new 
      @menu_item.section = params[:section_name]

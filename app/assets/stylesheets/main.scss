@@ -2,6 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.admin-btn {
+    text-align: center !important;
+    color: grey !important;
+    width:51%;
+    height: 40px;
+    line-height: 40px;
+    margin:auto;
+    border-width: 0.2px 0 0.2px 0;
+    border-color: rgba(0, 0, 0, 0.52);
+    border-style: solid;
+    font-size: 130%;
+    margin-bottom: 20px;
+}
+
+.admin-btn:hover {
+    text-decoration: none;
+}
+
 .menu-body {
     margin-top: 20px !important;
 }
